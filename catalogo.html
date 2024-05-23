@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Jersey+25&display=swap" rel="stylesheet">
+    <title>Tienda de Productos para Adultos</title>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a nuestra tienda de productos para adultos!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="quienes-somos.html">¿Quiénes Somos?</a>
+    </nav>
+    <div class="box-flex">
+        <div id="filtros">
+            <div>
+                <h2>Filtro</h2>
+            </div>
+
+            <section>
+                <form action="#" method="post" target="_blank">
+
+                    <div class="box-container">
+                        <label class="a-line" for="palabra-clave">Buscar</label>
+                        <input type="search" placeholder="palabras claves" id="palabra-clave" name="palabra-clave">
+                    </div>
+                    <br>
+                    <div class="box-container">
+                        <label for="categorias" class="dis-block">Categorias</label>
+                        <select name="categorias" id="categorias" multiple>
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                            <option value="Item 4">Item 4</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="box-container">
+                        <label for="Marca" class="dis-block">Marca</label>
+                        <select name="Marca" id="Marca" multiple>
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                            <option value="Item 4">Item 4</option>
+                        </select>
+                    </div>
+
+                    <br>
+                    <h2>Rango de Precios</h2>
+                    <input type="range" min="5" max="10" step="0.01" />
+
+                    <br>
+                    <input type="submit" value="Buscar">
+
+                </form>
+            </section>
+            </div>
+            <footer>
+                <img src="Material/Logotipo.jpeg" alt="Logo de la tienda">
+                <div class="box-container">
+                    Redes Sociales: Facebook, Twitter, Instagram<br>
+                    Teléfono: 123456789<br>
+                    Correo: info@tiendaadultos.com<br>
+                    Ubicación: Ciudad, País
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.Alinear_Flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: hsl(325, 100%, 70%);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: hsl(0, 100%, 50%);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para las secciones */
+section header {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section footer {
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+    /* Modificaciones para dispositivos con ancho máximo de 480px */
+    header {
+        padding: 10px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Modificaciones para dispositivos con ancho entre 481px y 768px */
+    header {
+        padding: 15px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    section {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Modificaciones para dispositivos con ancho entre 769px y 1024px */
+    header {
+        padding: 20px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    section {
+        padding: 20px;
+    }
+}
